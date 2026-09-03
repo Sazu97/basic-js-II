@@ -23,13 +23,22 @@ if (age >= 18) {
 
 //Ejercicio 2: Cambia el valor de age a 12 para mirar el resultado del ejercicio anterior.
 
-//Cambiado arriba porque ponerlo dos veces da error.
+//Cambiado arriba porque ponerlo dos veces da error. Comprobado que da en la consola "No eres aún mayor de edad".
 
 //Ejercicio 3: Escribe un condicional if/else que lea la constante pet y si es un perro, que imprima en la consola "Tengo un perro", si es un gato, que imprima en la consola "Tengo un gato", si es un pájaro, que imprima en la consola "Tengo un pájaro" y si no es ninguno de los 3 que imprima "No tengo una mascota convencional"
 
 const pet = "perro";
 //Escribe tu código aquí
 
+if (pet === "perro") {
+    console.log('Tengo un perro');
+} else if (pet === "gato") {
+    console.log('Tengo un gato');
+} else if (pet === "pájaro") {
+    console.log('Tengo un pájaro');
+} else {
+    console.log('No tengo una mascota convencional');
+}
 
 //Ejercicio 4: cambia el valor de pet a "serpiente" y mira el resultado en consola para comprobar que tu código funciona bien.
 
